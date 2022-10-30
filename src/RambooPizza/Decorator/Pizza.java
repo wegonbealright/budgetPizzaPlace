@@ -19,7 +19,7 @@ public class Pizza implements Food {
 
     @Override
     public String make() {
-        return this.name + ": ";
+        return this.name + " ";
     }
 
 }

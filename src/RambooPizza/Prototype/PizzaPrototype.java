@@ -25,7 +25,6 @@ public abstract class PizzaPrototype {
         if(!(object instanceof PizzaPrototype prototype)){
             return false;
         }
-
         return Objects.equals(name, prototype.name) && Objects.equals(addedToppings, prototype.addedToppings);
     }
 

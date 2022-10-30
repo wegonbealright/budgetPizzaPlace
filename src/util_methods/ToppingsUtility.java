@@ -15,7 +15,7 @@ public class ToppingsUtility {
 
     public static String selectToppings(Food pizza) throws IOException {
         Payment payment = new Payment();
-        System.out.println("Which toppings would you like? \nHam, pineapples \nHam, onions \nOnions, pineapples");
+        System.out.println("Which toppings would you like? \nHam, pineapples \nHam, onions \nOnions, pineapples\n\nType 'done' to complete topping selection!");
         String secondDecision = "";
         while(!Objects.equals(secondDecision, "done")) {
             secondDecision = reader.readLine();

@@ -44,6 +44,6 @@ public class CheesePizza extends PizzaPrototype implements Food {
 
     @Override
     public String make() {
-        return this.pizza + ": ";
+        return this.pizza;
     }
 }

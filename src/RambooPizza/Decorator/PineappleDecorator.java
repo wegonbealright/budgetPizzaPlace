@@ -1,6 +1,6 @@
 package RambooPizza.Decorator;
 
-public class PineappleDecorator implements Food {
+public class PineappleDecorator extends PizzaDecorator {
     private final Food food;
 
     public PineappleDecorator(Food food) {

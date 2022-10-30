@@ -1,8 +1,9 @@
-import RambooPizza.Decorator.*;
+import RambooPizza.Decorator.Pizza;
 import RambooPizza.Prototype.CheesePizza;
 import RambooPizza.Prototype.SicilianPizza;
 import RambooPizza.State.RamboPizza;
-import RambooPizza.Strategy.*;
+import RambooPizza.Strategy.CreditCard;
+import RambooPizza.Strategy.Payment;
 import util_methods.PaymentUtility;
 import util_methods.TemplateUtility;
 import util_methods.ToppingsUtility;
