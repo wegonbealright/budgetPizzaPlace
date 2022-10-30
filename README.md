@@ -1,11 +1,11 @@
 # BudgetPizzaPlace
 Main patterns used in the project are: 
 
-- Decorator (used for topping addition to prototype pizza's or the one from scratch)
-- Prototype (premade type of pizza that can also add toppings if decided so)
-- State (signalizes the different order processing stages after receiving payment)
-- Strategy (payment type for the order - card or paypal)
-- Template Method (preparation quality for the pizza, main difference being – price)
+- Decorator (used for topping addition to prototype pizza's or the one from scratch) (Structural)
+- Prototype (premade type of pizza that can also add toppings if decided so) (Creational)
+- State (signalizes the different order processing stages after receiving payment) (Behavioral)
+- Strategy (payment type for the order - card or paypal) (Behavioral)
+- Template Method (preparation quality for the pizza, main difference being – price) (Behavioral)
 
 
 # Quick runthrough of the program
